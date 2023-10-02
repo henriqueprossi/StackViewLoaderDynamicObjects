@@ -12,12 +12,6 @@ Item {
     property list<string> pagesList: [
         "GridOne.qml", "GridTwo.qml"
     ]
-    property int currentPageIndex: 0
-
-
-    function setInitialPage() {
-        currentPageIndex = 0;
-    }
 
     function goToPreviousPage() {
 
